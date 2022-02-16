@@ -1,7 +1,42 @@
 html {
   background-color: black;
+  opacity: 0.5;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
+  font-weight: normal;
+  color: White;
+  font-size: 50px;
+  text-align: center;
+}
+
+.cta {
+  font-size: 16px;
+  color: aquamarine;
+}
+
+h2 {
   color: aliceblue;
+  font-weight: 300;
+  font-size: 42px;
+}
+
+.excursion_p {
+  font-size: 21px;
+  color: grey;
+}
+.footer {
+  text-align: right;
+}
+.footer p {
+  color: grey;
 }
